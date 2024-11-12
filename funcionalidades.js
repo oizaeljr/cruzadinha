@@ -301,22 +301,22 @@ function enviar() {
 function exibirPergunta() {
     var optPerguntas = sel_perguntas.value
 
-    if (optPerguntas == 1) {
-        div_pergunta.innerHTML = `1 - Utilizado para localizar um componente e o endereço/localização exata dentro dele. Deste modo há comunicação e envio de dados entre o processador e o componente.`
-    } else if (optPerguntas == 2) {
-        div_pergunta.innerHTML = `2 - Responsável por executar operações de cálculos matemáticos e lógicos`
-    } else if (optPerguntas == 3) {
-        div_pergunta.innerHTML = `3 - Memórias auxiliares localizados dentro da CPU. São rápidas e destinadas para o armazenamento de dados e instruções temporárias. São três as principais: Acumulador, contador de programa e ponteiro da pilha.`
-    } else if (optPerguntas == 4) {
-        div_pergunta.innerHTML = `4 - Memória utilizadas para aplicações em que há necessidade de atualizações frequentes devido a sua característica de apagar dados em blocos. Ela é do tipo que, mesmo sem energia, manterá as informações que foram salvas.`
-    } else if (optPerguntas == 5) {
-        div_pergunta.innerHTML = ``
+    if (optPerguntas == 9) {
+        div_pergunta.innerHTML = `9 - Utilizado para localizar um componente e o endereço/localização exata dentro dele. Deste modo há comunicação e envio de dados entre o processador e o componente.`
     } else if (optPerguntas == 6) {
-        div_pergunta.innerHTML = ``
+        div_pergunta.innerHTML = `6 - Responsável por executar operações de cálculos matemáticos e lógicos`
+    } else if (optPerguntas == 2) {
+        div_pergunta.innerHTML = `2 - Memórias auxiliares localizados dentro da CPU. São rápidas e destinadas para o armazenamento de dados e instruções temporárias. São três as principais: Acumulador, contador de programa e ponteiro da pilha.`
     } else if (optPerguntas == 7) {
-        div_pergunta.innerHTML = ``
-    } else if (optPerguntas == 8) {
-        div_pergunta.innerHTML = ``
+        div_pergunta.innerHTML = `7 - Memória utilizadas para aplicações em que há necessidade de atualizações frequentes devido a sua característica de apagar dados em blocos. Ela é do tipo que, mesmo sem energia, manterá as informações que foram salvas.`
+    } else if (optPerguntas == 15) {
+        div_pergunta.innerHTML = `15 - Tipo de memória não volátil, que armazena dados essenciais para o funcionamento do sistema, como a BIOS. Esse tipo de memória permite apenas a leitura dos dados, ou seja, não é possível alterá-las.`
+    } else if (optPerguntas == 12) {
+        div_pergunta.innerHTML = `12 - Tipo de memória não volátil, responsável por armazer dados semi-permantentes, tais como: aplicativos de computador, linguagens de programação, entre outros. Esse tipo de memória permite, além da leitura, a regravação do conteúdo contido nela.`
+    } else if (optPerguntas == 3) {
+        div_pergunta.innerHTML = `3 - Tipo de memória não volátil, que mantém dados sem a necessidade de uma fonte de energia. Ela permite que os dados sejam apagados em blocos inteiros, tornando-a mais rápida e desejável para aplicações que necessitam de atualizações frequentes. É comum encontrá-la em cartões de memória, pen drives USB, celulares, entre outros.`
+    } else if (optPerguntas == 1) {
+        div_pergunta.innerHTML = `1 - Conhecida como memória secundária, ela é responsável por armazenar grandes quantidades de dados. Vale ressaltar que ela mantém esses dados salvos mesmo com o desligamento do computador e por um longo período de tempo. Ela é representada por: discos rígidos, dispositivos de armazenamento ótico, entre outros.`
     } else if (optPerguntas == 9) {
         div_pergunta.innerHTML = `9 - Tipo de memória que permite apenas a leitura de dados, ou seja, as 
             informações são gravadas pelo fabricante e não podem ser alteradas ou 
