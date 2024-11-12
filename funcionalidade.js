@@ -299,3 +299,56 @@ function enviar() {
 
 
 }
+
+function exibirPergunta() {
+    var optPerguntas = sel_perguntas.value
+
+    if (optPerguntas == 1) {
+        div_pergunta.innerHTML = `1 - Utilizado para localizar um componente e o endereço/localização exata dentro dele. Deste modo há comunicação e envio de dados entre o processador e o componente.`
+    } else if (optPerguntas == 2) {
+        div_pergunta.innerHTML = `2 - Responsável por executar operações de cálculos matemáticos e lógicos`
+    } else if (optPerguntas == 3) {
+        div_pergunta.innerHTML = `3 - Memórias auxiliares localizados dentro da CPU. São rápidas e destinadas para o armazenamento de dados e instruções temporárias. São três as principais: Acumulador, contador de programa e ponteiro da pilha.`
+    } else if (optPerguntas == 4) {
+        div_pergunta.innerHTML = `4 - Memória utilizadas para aplicações em que há necessidade de atualizações frequentes devido a sua característica de apagar dados em blocos. Ela é do tipo que, mesmo sem energia, manterá as informações que foram salvas.`
+    } else if (optPerguntas == 5) {
+        div_pergunta.innerHTML = ``
+    } else if (optPerguntas == 6) {
+        div_pergunta.innerHTML = ``
+    } else if (optPerguntas == 7) {
+        div_pergunta.innerHTML = ``
+    } else if (optPerguntas == 8) {
+        div_pergunta.innerHTML = ``
+    } else if (optPerguntas == 9) {
+        div_pergunta.innerHTML = `9 - Tipo de memória que permite apenas a leitura de dados, ou seja, as 
+            informações são gravadas pelo fabricante e não podem ser alteradas ou 
+            apagadas. A sua função é armazenar firmwares ou pequenos softwares que 
+            atuam somente em um hardware específico.`
+    } else if (optPerguntas == 10) {
+        div_pergunta.innerHTML = `10 - Processador intermediário, arquitetura híbrida de alto desempenho 
+             combina duas microarquiteturas de núcleos, os Performance-cores (P-cores) 
+            e os Efficient-cores (E-cores), em uma mesma matriz do processador lançado 
+            em 2009.`
+    } else if (optPerguntas == 11) {
+        div_pergunta.innerHTML = `11 - Ligação de dados que conecta todos os participantes entre si 
+            através de um caminho de transmissão`
+    } else if (optPerguntas == 12) {
+        div_pergunta.innerHTML = `12 - Um recurso que permite que dispositivos de hardware, como 
+            placas de rede, de som ou gráficas, acessem a memória do sistema 
+            sem depender da CPU`
+    } else if (optPerguntas == 13) {
+        div_pergunta.innerHTML = `13 - Termo que se refere a um processador com quatro núcleos de processamento.
+            Ex: processador i7 da linha Sandy Bridge, da Intel`
+    } else if (optPerguntas == 14) {
+        div_pergunta.innerHTML = `14 - Componente responsável por realizar as principais operações e 
+            cálculos necessários para que o computador funcione corretamente`
+    } else if (optPerguntas == 15) {
+        div_pergunta.innerHTML = `15 - Estratégia de negócio que visa garantir que os clientes fiquem 
+            satisfeitos com a empresa e continuem a comprar seus produtos ou serviços`
+    } else if (optPerguntas == 16) {
+        div_pergunta.innerHTML = `16 - Processador da Intel, de alto desempenho lançado em 2008 
+            e é voltado para usuários avançados e profissionais.`
+    } else {
+        div_pergunta.innerHTML = ``
+    }
+}

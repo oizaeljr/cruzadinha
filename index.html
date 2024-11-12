@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruzadinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+            <div class="container3">
+                <div class="containerP8">
+                    <span>Escolha a pergunta</span>
+                    <select id="sel_perguntas" oninput="exibirPergunta()">
+                        <option value="#">Escolha uma opção</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                    </select>
+                </div>
+                <div class="containerP16">
+                    <div class="containerPP" id="div_pergunta"></div>
+                </div>
+            </div>
+            <div class="container4">
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">7</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">1</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="r_7">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="m_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">6</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">9</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">5</div>
+                    <input type="text" maxlength="1" id="a_5_7">
+                    <input type="text" maxlength="1" id="d_5">
+                    <input type="text" maxlength="1" id="dd_5">
+                    <input type="text" maxlength="1" id="r_5">
+                    <input type="text" maxlength="1" id="e_5_1">
+                    <input type="text" maxlength="1" id="s_5">
+                    <input type="text" maxlength="1" id="ss_5">
+                    <div class="containerColuna asterisco">*</div>
+                    <input type="text" maxlength="1" id="b_5">
+                    <input type="text" maxlength="1" id="u_5_6">
+                    <input type="text" maxlength="1" id="sss_5">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="c_9">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">15</div>
+                    <input type="text" maxlength="1" id="r_15">
+                    <input type="text" maxlength="1" id="o_15">
+                    <input type="text" maxlength="1" id="m_7_15">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="mm_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="l_6">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="p_9">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="o_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">8</div>
+                    <input type="text" maxlength="1" id="d_8">
+                    <input type="text" maxlength="1" id="a_6_8">
+                    <input type="text" maxlength="1" id="t_8">
+                    <input type="text" maxlength="1" id="aa_8">
+                    <div class="containerColuna asterisco">*</div>
+                    <input type="text" maxlength="1" id="b_8">
+                    <input type="text" maxlength="1" id="u_8">
+                    <input type="text" maxlength="1" id="s_8">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="r_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">4</div>
+                    <input type="text" maxlength="1" id="i_1">
+                    <input type="text" maxlength="1" id="numero_5">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">3</div>
+                    <input type="text" maxlength="1" id="f_3">
+                    <input type="text" maxlength="1" id="l_3">
+                    <input type="text" maxlength="1" id="a_1_3">
+                    <input type="text" maxlength="1" id="s_3">
+                    <input type="text" maxlength="1" id="h_3">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">12</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna asterisco">*</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="e_12">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">10</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="d_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">16</div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="p_12">
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="c_10">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">2</div>
+                    <input type="text" maxlength="1" id="r_2">
+                    <input type="text" maxlength="1" id="e_1_2">
+                    <input type="text" maxlength="1" id="g_2">
+                    <input type="text" maxlength="1" id="i_2_16">
+                    <input type="text" maxlength="1" id="s_2">
+                    <input type="text" maxlength="1" id="t_2">
+                    <input type="text" maxlength="1" id="rr_2">
+                    <input type="text" maxlength="1" id="a_2">
+                    <input type="text" maxlength="1" id="d_2">
+                    <input type="text" maxlength="1" id="o_2">
+                    <input type="text" maxlength="1" id="rrr_2_12">
+                    <input type="text" maxlength="1" id="e_2">
+                    <input type="text" maxlength="1" id="s_2_10">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna asterisco">*</div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="numero_7">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="o_12">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="mmm_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">13</div>
+                    <input type="text" maxlength="1" id="d_13">
+                    <input type="text" maxlength="1" id="m_12_13">
+                    <input type="text" maxlength="1" id="a_13">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">11</div>
+                    <input type="text" maxlength="1" id="q_11">
+                    <input type="text" maxlength="1" id="u_11">
+                    <input type="text" maxlength="1" id="aa_1_11">
+                    <input type="text" maxlength="1" id="d_11">
+                    <div class="containerColuna asterisco">*</div>
+                    <input type="text" maxlength="1" id="c_11">
+                    <input type="text" maxlength="1" id="o_11">
+                    <input type="text" maxlength="1" id="r_11">
+                    <input type="text" maxlength="1" id="e_11">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="s_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <input type="text" maxlength="1" id="ss_1">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+                <div class="containerLinha">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna numero">14</div>
+                    <input type="text" maxlength="1" id="d_14">
+                    <input type="text" maxlength="1" id="u_14">
+                    <input type="text" maxlength="1" id="aaa_1_14">
+                    <input type="text" maxlength="1" id="l_14">
+                    <div class="containerColuna">*</div>
+                    <input type="text" maxlength="1" id="c_14">
+                    <input type="text" maxlength="1" id="o_14">
+                    <input type="text" maxlength="1" id="r_14">
+                    <input type="text" maxlength="1" id="e_14">
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                    <div class="containerColuna"></div>
+                </div>
+            </div>
+            <div>
+                <button onclick="enviar()">Verificar</button>
+                <button onclick="limpar()">Limpar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="funcionalidades.js"></script>

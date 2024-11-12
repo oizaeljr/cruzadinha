@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container1 {
+    border: 1px solid;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 button {
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.container3 {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.containerP8 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerP8 span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.containerP8 select {
+    width: 10vw;
+}
+
+.containerPP {
+    width: 30vw;
+    height: 10vh;
+}
+
+.containerP16 {
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 {
+    width: 90vw;
+    height: 80vh;
+}
+
+.container4 input {
+    width: 3.46vw;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.containerLinha {
+    height: 4.5vh;
+    display: flex;
+    align-items: centerh;
+    background-color: beige;
+}
+
+.containerColuna {
+    width: 3.5vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asterisco {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.numero {
+    font-weight: bold;
+}
