@@ -18,16 +18,16 @@ function enviar() {
     var addVerdade = A_5_7 && D_5 && DD_5 && R_5 && E_1_5 && S_5 && SS_5 && B_5 && U_5_6 && SSS_5;
 
     if(addVerdade){
-        a_5_7.style.backgroundColor = green;
-        d_5.style.backgroundColor = green;
-        dd_5.style.backgroundColor = green;
-        r_5.style.backgroundColor = green;
-        e_1_5.style.backgroundColor = green;
-        s_5.style.backgroundColor = green;
-        ss_5.style.backgroundColor = green;
-        b_5.style.backgroundColor = green;
-        u_5_6.style.backgroundColor = green;
-        sss_5.style.backgroundColor = green;
+        a_5_7.style.backgroundColor = 'green';
+        d_5.style.backgroundColor = 'green';
+        dd_5.style.backgroundColor = 'green';
+        r_5.style.backgroundColor = 'green';
+        e_1_5.style.backgroundColor = 'green';
+        s_5.style.backgroundColor = 'green';
+        ss_5.style.backgroundColor = 'green';
+        b_5.style.backgroundColor = 'green';
+        u_5_6.style.backgroundColor = 'green';
+        sss_5.style.backgroundColor = 'green';
     }
     
     //RAM
@@ -38,9 +38,9 @@ function enviar() {
     var ramVerdade = R_7 && M_7_15 && A_5_7
 
     if(ramVerdade){
-        r_7.style.backgroundColor = green;
-        m_7_15.style.backgroundColor = green;
-        a_5_7.style.backgroundColor = green;
+        r_7.style.backgroundColor = 'green';
+        m_7_15.style.backgroundColor = 'green';
+        a_5_7.style.backgroundColor = 'green';
     }
     
     
@@ -52,9 +52,9 @@ function enviar() {
     var romVerdade = R_15 && O_15 && M_7_15;
 
     if(romVerdade){
-        r_15.display.backgroundColor = green;
-        o_15.display.backgroundColor = green;
-        m_7_15.style.backgroundColor = green;
+        r_15.display.backgroundColor = 'green';
+        o_15.display.backgroundColor = 'green';
+        m_7_15.style.backgroundColor = 'green';
     }
     
     //ULA
@@ -64,9 +64,9 @@ function enviar() {
     var ulaVerdade = U_5_6 && L_6 && A_6_8;
 
     if(ulaVerdade){
-        l_6.style.backgroundColor = green;
-        a_6_8.style.backgroundColor = green;
-        u_5_6.style.backgroundColor = green;
+        l_6.style.backgroundColor = 'green';
+        a_6_8.style.backgroundColor = 'green';
+        u_5_6.style.backgroundColor = 'green';
     }
 
     //Data bus
@@ -81,13 +81,13 @@ function enviar() {
     var dataVerdade = D_8 && A_6_8 && T_8 && AA_8 && B_8 && U_8_9 && S_8;
 
     if(dataVerdade){
-        d_8.style.backgroundColor = green;
-        a_6_8.style.backgroundColor = green;
-        t_8.style.backgroundColor = green;
-        aa_8.style.backgroundColor = green;
-        b_8.style.backgroundColor = green;
-        u_8_9.style.backgroundColor = green;
-        s_8.style.backgroundColor = green;
+        d_8.style.backgroundColor = 'green';
+        a_6_8.style.backgroundColor = 'green';
+        t_8.style.backgroundColor = 'green';
+        aa_8.style.backgroundColor = 'green';
+        b_8.style.backgroundColor = 'green';
+        u_8_9.style.backgroundColor = 'green';
+        s_8.style.backgroundColor = 'green';
     }
 
     //CPU
@@ -97,9 +97,9 @@ function enviar() {
     var cpuVerdade = C_9 && P_9 && U_8_9;
 
     if(cpuVerdade){
-        c_9.style.backgroundColor = green;
-        p_9.style.backgroundColor = green;
-        u_8_9.style.backgroundColor = green;
+        c_9.style.backgroundColor = 'green';
+        p_9.style.backgroundColor = 'green';
+        u_8_9.style.backgroundColor = 'green';
     }
 
     //Registradores
@@ -120,19 +120,19 @@ function enviar() {
     var regVerdade =  R_2 && E_1_2 && G_2 && I_2_16 && S_2 && T_2 && RR_2 && A_2 && D_2 &&  O_2 && RRR_2_12 && EE_2 && SS_2_10;
 
     if(regVerdade){
-        r_2.style.backgroundColor = green;
-        e_1_2.style.backgroundColor = green;
-        g_2.style.backgroundColor = green;
-        i_2_16.style.backgroundColor = green;
-        s_2.style.backgroundColor = green;
-        t_2.style.backgroundColor = green;
-        rr_2.style.backgroundColor = green;
-        a_2.style.backgroundColor = green;
-        d_2.style.backgroundColor = green;
-        o_2.style.backgroundColor = green;
-        rrr_2_12.style.backgroundColor = green;
-        ee_2.style.backgroundColor = green;
-        ss_2_10.style.backgroundColor = green;
+        r_2.style.backgroundColor = 'green';
+        e_1_2.style.backgroundColor = 'green';
+        g_2.style.backgroundColor = 'green';
+        i_2_16.style.backgroundColor = 'green';
+        s_2.style.backgroundColor = 'green';
+        t_2.style.backgroundColor = 'green';
+        rr_2.style.backgroundColor = 'green';
+        a_2.style.backgroundColor = 'green';
+        d_2.style.backgroundColor = 'green';
+        o_2.style.backgroundColor = 'green';
+        rrr_2_12.style.backgroundColor = 'green';
+        ee_2.style.backgroundColor = 'green';
+        ss_2_10.style.backgroundColor = 'green';
     }
 
     //CS
@@ -142,8 +142,8 @@ function enviar() {
     var csVerdade = C_10 && SS_2_10;
 
     if(csVerdade){
-        c_10.style.backgroundColor = green;
-        ss_2_10.style.backgroundColor = green;
+        c_10.style.backgroundColor = 'green';
+        ss_2_10.style.backgroundColor = 'green';
     }
 
     //EPROM
@@ -156,11 +156,11 @@ function enviar() {
     var eprVerdade = E_12 && P_12 && RRR_2_12 && O_12 && M_12_13;
 
     if(eprVerdade){
-        e_12.style.backgroundColor = green;
-        p_12.style.backgroundColor = green;
-        rrr_2_12.style.backgroundColor = green;
-        o_12.style.backgroundColor = green;
-        m_12_13.style.backgroundColor = green;
+        e_12.style.backgroundColor = 'green';
+        p_12.style.backgroundColor = 'green';
+        rrr_2_12.style.backgroundColor = 'green';
+        o_12.style.backgroundColor = 'green';
+        m_12_13.style.backgroundColor = 'green';
     }
 
     // DMA
@@ -171,9 +171,9 @@ function enviar() {
     var dmaVerdade = D_13 && M_12_13 && A_13;
 
     if(dmaVerdade){
-        d_13.style.backgroundColor = green;
-        m_12_13.style.backgroundColor = green;
-        a_13.style.backgroundColor = green;
+        d_13.style.backgroundColor = 'green';
+        m_12_13.style.backgroundColor = 'green';
+        a_13.style.backgroundColor = 'green';
     }
 
     //i7
@@ -183,8 +183,8 @@ function enviar() {
     var i7Verdade = I_2_16 && NUMERO_7;
 
     if(i7Verdade){
-        i_2_16.style.backgroundColor = green;
-        numero_7.style.backgroundColor = green;
+        i_2_16.style.backgroundColor = 'green';
+        numero_7.style.backgroundColor = 'green';
     }
 
     //Memória de massa
@@ -206,20 +206,20 @@ function enviar() {
     var memVerdade = M_1 && E_1_5 && MM_1 && O_1 && R_1 && I_1_4 && A_1_3 && D_1 && E_1_2 && MMM_1 && AA_1_11 && S_1 && SS_1 && AAA_1_14;
 
     if(memVerdade){
-        m_1.style.backgroundColor = green;
-        e_1_5.style.backgroundColor = green;
-        mm_1.style.backgroundColor = green;
-        o_1.style.backgroundColor = green;
-        r_1.style.backgroundColor = green;
-        i_1_4.style.backgroundColor = green;
-        a_1_3.style.backgroundColor = green;
-        d_1.style.backgroundColor = green;
-        e_1_2.style.backgroundColor = green;
-        mmm_1.style.backgroundColor = green;
-        aa_1_11.style.backgroundColor = green;
-        s_1.style.backgroundColor = green;
-        ss_1.style.backgroundColor = green;
-        aaa_1_14.style.backgroundColor = green;
+        m_1.style.backgroundColor = 'green';
+        e_1_5.style.backgroundColor = 'green';
+        mm_1.style.backgroundColor = 'green';
+        o_1.style.backgroundColor = 'green';
+        r_1.style.backgroundColor = 'green';
+        i_1_4.style.backgroundColor = 'green';
+        a_1_3.style.backgroundColor = 'green';
+        d_1.style.backgroundColor = 'green';
+        e_1_2.style.backgroundColor = 'green';
+        mmm_1.style.backgroundColor = 'green';
+        aa_1_11.style.backgroundColor = 'green';
+        s_1.style.backgroundColor = 'green';
+        ss_1.style.backgroundColor = 'green';
+        aaa_1_14.style.backgroundColor = 'green';
     }
 
     //i5
@@ -229,8 +229,8 @@ function enviar() {
     var i5Verdade = I_1_4 && NUMERO_5;
 
     if(i5Verdade){
-        i_1_4.style.backgroundColor = green;
-        numero_5.style.backgroundColor = green;
+        i_1_4.style.backgroundColor = 'green';
+        numero_5.style.backgroundColor = 'green';
     }
 
     //FLASH
@@ -243,11 +243,11 @@ function enviar() {
     var flsVerdade = F_3 && L_3 && A_1_3 && S_3 && H_3;
 
     if(flsVerdade){
-        f_3.style.backgroundColor = green;
-        a_1_3.style.backgroundColor = green;
-        l_3.style.backgroundColor = green;
-        s_3.style.backgroundColor = green;
-        h_3.style.backgroundColor = green;
+        f_3.style.backgroundColor = 'green';
+        a_1_3.style.backgroundColor = 'green';
+        l_3.style.backgroundColor = 'green';
+        s_3.style.backgroundColor = 'green';
+        h_3.style.backgroundColor = 'green';
     }
 
     //QUAD CORE
@@ -263,14 +263,14 @@ function enviar() {
     var quadVerdade = Q_11 && U_11 && AA_1_11 && D_11 && C_11 && O_11 && R_11 && E_11;
 
     if(quadVerdade){
-        q_11.style.backgroundColor = green;
-        u_11.style.backgroundColor = green;
-        aa_1_11.style.backgroundColor = green;
-        d_11.style.backgroundColor = green;
-        c_11.style.backgroundColor = green;
-        o_11.style.backgroundColor = green;
-        r_11.style.backgroundColor = green;
-        e_11.style.backgroundColor = green;
+        q_11.style.backgroundColor = 'green';
+        u_11.style.backgroundColor = 'green';
+        aa_1_11.style.backgroundColor = 'green';
+        d_11.style.backgroundColor = 'green';
+        c_11.style.backgroundColor = 'green';
+        o_11.style.backgroundColor = 'green';
+        r_11.style.backgroundColor = 'green';
+        e_11.style.backgroundColor = 'green';
     }
 
 
@@ -287,14 +287,14 @@ function enviar() {
     var dualVerdade = D_14 && U_14 && AAA_1_14 && L_14 && C_14 && O_14 && R_14 && E_14;
 
     if(dualVerdade){
-        d_14.style.backgroundColor = green;
-        u_14.style.backgroundColor = green;
-        aaa_1_14.style.backgroundColor = green;
-        l_14.style.backgroundColor = green;
-        c_14.style.backgroundColor = green;
-        o_14.style.backgroundColor = green;
-        r_14.style.backgroundColor = green;
-        e_14.style.backgroundColor = green;
+        d_14.style.backgroundColor = 'green';
+        u_14.style.backgroundColor = 'green';
+        aaa_1_14.style.backgroundColor = 'green';
+        l_14.style.backgroundColor = 'green';
+        c_14.style.backgroundColor = 'green';
+        o_14.style.backgroundColor = 'green';
+        r_14.style.backgroundColor = 'green';
+        e_14.style.backgroundColor = 'green';
     }   
 
 
