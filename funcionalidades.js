@@ -298,6 +298,205 @@ function enviar() {
 
 }
 
+function limpar() {
+
+    //ROM
+
+    r_15.value = '';
+    r_15.style.backgroundColor = 'white';
+    o_15.value = '';
+    o_15.style.backgroundColor = 'white';
+
+    //ULA
+    l_6.value = '';
+    l_6.style.backgroundColor = 'white';
+    a_6_8.value = '';
+    a_6_8.style.backgroundColor = 'white';
+
+     //Data bus
+
+    d_8.value = '';
+    d_8.style.backgroundColor = 'white';
+    t_8.value = '';
+    t_8.style.backgroundColor = 'white';
+    aa_8.value = '';
+    aa_8.style.backgroundColor = 'white';
+    b_8.value = '';
+    b_8.style.backgroundColor = 'white';
+    u_8_9.value = '';
+    u_8_9.style.backgroundColor = 'white'; //usado no CPU
+    s_8.value = '';
+    s_8.style.backgroundColor = 'white';
+
+    //CPU
+    c_9.value = '';
+    c_9.style.backgroundColor = 'white';
+    p_9.value = '';
+    p_9.style.backgroundColor = 'white';
+
+    //Registradores
+    r_2.value = '';
+    r_2.style.backgroundColor = 'white';
+    e_1_2.value = '';
+    e_1_2.style.backgroundColor = 'white'; //usado em memórias de massa
+    g_2.value = '';
+    g_2.style.backgroundColor = 'white';
+    i_2_16.value = '';
+    i_2_16.style.backgroundColor = 'white'; //usado no i7
+    s_2.value = '';
+    s_2.style.backgroundColor = 'white';
+    t_2.value = '';
+    t_2.style.backgroundColor = 'white';
+    rr_2.value = '';
+    rr_2.style.backgroundColor = 'white';
+    a_2.value = '';
+    a_2.style.backgroundColor = 'white';
+    d_2.value = '';
+    d_2.style.backgroundColor = 'white';
+    o_2.value = '';
+    o_2.style.backgroundColor = 'white';
+    rrr_2_12.value = '';
+    rrr_2_12.style.backgroundColor = 'white'; //usado em EPROM
+    ee_2.value = '';
+    ee_2.style.backgroundColor = 'white';
+    ss_2_10.value = '';
+    ss_2_10.style.backgroundColor = 'white';
+
+    //CS
+
+    c_10.value = '';
+    c_10.style.backgroundColor = 'white';
+
+    //EPROM
+
+    e_12.value = '';
+    e_12.style.backgroundColor = 'white';
+    p_12.value = '';
+    p_12.style.backgroundColor = 'white';
+    o_12.value = '';
+    o_12.style.backgroundColor = 'white';
+    m_12_13.value = '';
+    m_12_13.style.backgroundColor = 'white';
+
+    // DMA
+
+    d_13.value = '';
+    d_13.style.backgroundColor = 'white';
+    a_13.value = '';
+    a_13.style.backgroundColor = 'white';
+
+    //i7
+
+    numero_7.value = ''
+    numero_7.style.backgroundColor = 'white';
+
+    //Memória de massa
+
+    m_1.value = '';
+    m_1.style.backgroundColor = 'white';
+    mm_1.value = '';
+    mm_1.style.backgroundColor = 'white';
+    o_1.value = '';
+    o_1.style.backgroundColor = 'white';
+    r_1.value = '';
+    r_1.style.backgroundColor = 'white';
+    i_1_4.value = '';
+    i_1_4.style.backgroundColor = 'white'; //usado no i5
+    a_1_3.value = '';
+    a_1_3.style.backgroundColor = 'white'; // usado no Flash
+    d_1.value = '';
+    d_1.style.backgroundColor = 'white';
+    mmm_1.value = '';
+    mmm_1.style.backgroundColor = 'white';
+    aa_1_11.value = '';
+    aa_1_11.style.backgroundColor = 'white'; //usado em quad core
+    s_1.value = '';
+    s_1.style.backgroundColor = 'white';
+    ss_1.value = '';
+    ss_1.style.backgroundColor = 'white';
+    aaa_1_14.value = '';
+    aaa_1_14.style.backgroundColor = 'white'; 
+
+    //i5
+
+    numero_5.value = ''
+    numero_5.style.backgroundColor = 'white';
+
+    //FLASH
+
+    f_3.value = '';
+    f_3.style.backgroundColor = 'white';
+    l_3.value = '';
+    l_3.style.backgroundColor = 'white';
+    s_3.value = '';
+    s_3.style.backgroundColor = 'white';
+    h_3.value = '';
+    h_3.style.backgroundColor = 'white';
+
+    //QUAD CORE
+
+    q_11.value = '';
+    q_11.style.backgroundColor = 'white';
+    u_11.value = '';
+    u_11.style.backgroundColor = 'white';
+    d_11.value = '';
+    d_11.style.backgroundColor = 'white';
+    c_11.value = '';
+    c_11.style.backgroundColor = 'white';
+    o_11.value = '';
+    o_11.style.backgroundColor = 'white';
+    r_11.value = '';
+    r_11.style.backgroundColor = 'white';
+    e_11.value = '';
+    e_11.style.backgroundColor = 'white';
+
+    //DUAL CORE
+
+    d_14.value = '';
+    d_14.style.backgroundColor = 'white';
+    u_14.value = '';
+    u_14.style.backgroundColor = 'white';
+    l_14.value = '';
+    l_14.style.backgroundColor = 'white';
+    c_14.value = '';
+    c_14.style.backgroundColor = 'white';
+    o_14.value = '';
+    o_14.style.backgroundColor = 'white';
+    r_14.value = '';
+    r_14.style.backgroundColor = 'white';
+    e_14.value = '';
+    e_14.style.backgroundColor = 'white';
+
+    // Address Bus
+    a_5_7.value = '';
+    a_5_7.style.backgroundColor = 'white'; //usado no RAM
+    d_5.value = '';
+    d_5.style.backgroundColor = 'white';
+    dd_5.value = '';
+    dd_5.style.backgroundColor = 'white';
+    r_5.value = '';
+    r_5.style.backgroundColor = 'white';
+    e_1_5.value = '';
+    e_1_5.style.backgroundColor = 'white'; //usado em memórias de massa 
+    s_5.value = '';
+    s_5.style.backgroundColor = 'white';
+    ss_5.value = '';
+    ss_5.style.backgroundColor = 'white';
+    b_5.value = '';
+    b_5.style.backgroundColor = 'white';
+    u_5_6.value = '';
+    u_5_6.style.backgroundColor = 'white'; //usado no ULA 
+    sss_5.value = '';
+    sss_5.style.backgroundColor = 'white';
+
+    //RAM
+
+    r_7.value = '';
+    r_7.style.backgroundColor = 'white';
+    m_7_15.value = '';
+    m_7_15.style.backgroundColor = 'white';
+}
+
 function exibirPergunta() {
     var optPerguntas = sel_perguntas.value
 
