@@ -516,34 +516,30 @@ function exibirPergunta() {
         div_pergunta.innerHTML = `3 - Tipo de memória não volátil, que mantém dados sem a necessidade de uma fonte de energia. Ela permite que os dados sejam apagados em blocos inteiros, tornando-a mais rápida e desejável para aplicações que necessitam de atualizações frequentes. É comum encontrá-la em cartões de memória, pen drives USB, celulares, entre outros.`
     } else if (optPerguntas == 1) {
         div_pergunta.innerHTML = `1 - Conhecida como memória secundária, ela é responsável por armazenar grandes quantidades de dados. Vale ressaltar que ela mantém esses dados salvos mesmo com o desligamento do computador e por um longo período de tempo. Ela é representada por: discos rígidos, dispositivos de armazenamento ótico, entre outros.`
-    } else if (optPerguntas == 9) {
-        div_pergunta.innerHTML = `9 - Tipo de memória que permite apenas a leitura de dados, ou seja, as 
-            informações são gravadas pelo fabricante e não podem ser alteradas ou 
-            apagadas. A sua função é armazenar firmwares ou pequenos softwares que 
-            atuam somente em um hardware específico.`
-    } else if (optPerguntas == 10) {
-        div_pergunta.innerHTML = `10 - Processador intermediário, arquitetura híbrida de alto desempenho 
-             combina duas microarquiteturas de núcleos, os Performance-cores (P-cores) 
-            e os Efficient-cores (E-cores), em uma mesma matriz do processador lançado 
-            em 2009.`
-    } else if (optPerguntas == 11) {
-        div_pergunta.innerHTML = `11 - Ligação de dados que conecta todos os participantes entre si 
-            através de um caminho de transmissão`
-    } else if (optPerguntas == 12) {
-        div_pergunta.innerHTML = `12 - Um recurso que permite que dispositivos de hardware, como 
-            placas de rede, de som ou gráficas, acessem a memória do sistema 
-            sem depender da CPU`
-    } else if (optPerguntas == 13) {
-        div_pergunta.innerHTML = `13 - Termo que se refere a um processador com quatro núcleos de processamento.
-            Ex: processador i7 da linha Sandy Bridge, da Intel`
     } else if (optPerguntas == 14) {
-        div_pergunta.innerHTML = `14 - Componente responsável por realizar as principais operações e 
-            cálculos necessários para que o computador funcione corretamente`
-    } else if (optPerguntas == 15) {
-        div_pergunta.innerHTML = `15 - Estratégia de negócio que visa garantir que os clientes fiquem 
+        div_pergunta.innerHTML = `14 - Processador que possui "dois cérebros trabalhando", ou seja, dois núcleos. Deste modo, é possível executar tarefas múltiplas, atingindo melhores resultados que aqueles processadores que possuem apenas um núcleo. Exemplo: Intel Pentium D.`
+    } else if (optPerguntas == 4) {
+        div_pergunta.innerHTML = `4 - Processador intermediário, arquitetura híbrida de alto desempenho
+             combina duas microarquiteturas de núcleos, os Performance-cores (P-cores)
+            e os Efficient-cores (E-cores), em uma mesma matriz do processador lançado
+            em 2009.`
+    } else if (optPerguntas == 8) {
+        div_pergunta.innerHTML = `8 - Ligação de dados que conecta todos os participantes entre si
+            através de um caminho de transmissão`
+    } else if (optPerguntas == 13) {
+        div_pergunta.innerHTML = `13 - Um recurso que permite que dispositivos de hardware, como
+            placas de rede, de som ou gráficas, acessem a memória do sistema
+            sem depender da CPU`
+    } else if (optPerguntas == 11) {
+        div_pergunta.innerHTML = `11 - Termo que se refere a um processador com quatro núcleos de processamento.
+            Ex: processador i7 da linha Sandy Bridge, da Intel`
+    } else if (optPerguntas == 5) {
+        div_pergunta.innerHTML = `5 - Caminho que conecta o coração do processador aos demais componentes do sistema, possibilitando a interação entre eles.`
+    } else if (optPerguntas == 10) {
+        div_pergunta.innerHTML = `10 - Estratégia de negócio que visa garantir que os clientes fiquem
             satisfeitos com a empresa e continuem a comprar seus produtos ou serviços`
     } else if (optPerguntas == 16) {
-        div_pergunta.innerHTML = `16 - Processador da Intel, de alto desempenho lançado em 2008 
+        div_pergunta.innerHTML = `16 - Processador da Intel, de alto desempenho lançado em 2008
             e é voltado para usuários avançados e profissionais.`
     } else {
         div_pergunta.innerHTML = ``
